@@ -1,0 +1,21 @@
+public MySBuilder(char [] str)					|	Looks good
+public MySBuilder(MySBuilder old)				|	Looks good
+public MySBuilder append(String str)				|	Looks good 
+public MySBuilder append(MySBuilder S)				|	Looks good
+public MySBuilder append(char [] str)				|	Looks good 
+public MySBuilder append(char c)				|	Looks good 
+public MySBuilder delete(int start, int end)			|	Looks good
+public MySBuilder deleteCharAt(int index)			|	Looks good
+public int indexOf(String str)					|	done i think
+public int indexOf(String str, int fromIndex)			|	done i think
+public MySBuilder insert(int offset, String str)		|	done i think
+public MySBuilder insert(int offset, char [] str)		|	done i think
+public MySBuilder insert(int offset, char c)			|	done i think
+public MySBuilder insert(int offset, MySBuilder S)		|	fukc no
+public MySBuilder replace(int start, int end, String str)	|	
+public String substring(int start, int end)			|	
+public String [] split(char delim)				|
+
+
+MISSING HELLO! EQUALS HELLO! WILL FIX LATER
+public char [] resize(char [] old, int newSize)			|	convenience method for my sake, should work assuming params are implemeneted correctly
